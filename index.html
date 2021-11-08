@@ -45,7 +45,6 @@
     var font_size = 10;
     var char_width = font_size * .5;
     var row_height = font_size * 2;
-    var title_text, jsonData, origData, style_option
 
     function toggleStyle() {
 
@@ -115,19 +114,29 @@
             .style("opacity", 0)
         tooltip.selectAll("button").remove()
 
+        let x = width * .95
+        let y = height * .15
+        let to = 8000
+
         if (d) {
-            d3.event.preventDefault();
-            let pos = [d3.event.pageX, d3.event.pageY - 80];
+            if(d3.event) {
+                d3.event.preventDefault();
+                x = d3.event.pageX
+                y = d3.event.pageY
+                to = 6000
+            }
 
-            let ttb = tooltip.append("button")
-                .classed("close", true)
-                .attr("aria-label", "Close")
-                .append("span")
-                .attr("aria-hidden", true).html("&times;")
+            let pos = [x, y - 80];
 
-            ttb.on("click", function () {
-                showTooltip()
-            })
+            //let ttb = tooltip.append("button")
+            //    .classed("close", true)
+             //   .attr("aria-label", "Close")
+                //.append("span")
+                //.attr("aria-hidden", true).html("&times;")
+
+            //ttb.on("click", function () {
+            //    showTooltip()
+            //})
 
             tooltip.append("span")
                 .classed("tool-content", true)
@@ -142,7 +151,7 @@
 
             setTimeout(function () {
                 showTooltip()
-            }, 6000)
+            }, to)
 
         } else {
             return
@@ -151,9 +160,11 @@
     }
 
 </script>
+
 <script src="js/api.js"></script>
 <script src="js/matrix.js"></script>
 <script src="js/read_file.js"></script>
+
 
 
 

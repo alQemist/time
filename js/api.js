@@ -47,41 +47,30 @@ function  saveChanges (d) {
     }
     return xhttp.send();
 }
-function getJsonData(callback){
+function getJsonData(d){
 
-    if(!callback){
-        d3.json('data/matrix.json',function(json){
-            title_text = json.title_text
-            style_option = json.style_option
-            jsonData = json.data
-            addMatrix(jsonData);
-            toggleStyle()
+            let jsonstr = JSON.stringify(d)
+            let xdata = new Blob([jsonstr])
+            let a = document.getElementById('exportbutton');
+            a.href = URL.createObjectURL(xdata)
+            a.download = "TIME_matrix.json"
 
-        })
-        return
-    }
+            if(!is_open){
+                let txt = "<ol><li>EXPORT(download) 'TIME_matrix.json' data.</li><li>Open and edit the JSON data</li><li>IMPORT your new JSON file.</li></ol>"
+                showTooltip(txt)
+                is_open = 1
+                setTimeout(function(){
+                    addMatrix(d);
+                },2000)
+            }else{
+                addMatrix(d);
+            }
 
-    let url = "http://localhost:8888/d3-erd/erd_api.php?v=dev"
-
-    var xhttp = new XMLHttpRequest();
-
-    xhttp.open("GET", url, true);
-    xhttp.onreadystatechange = function () {//Call a function when the state changes.
-
-        if (this.readyState === 4 && this.status === 200 ) {
-            var rt = xhttp.responseText;
-            let jData = JSON.parse(xhttp.responseText)
-            console.log(jData)
-            if(callback) {load(jData)}
-        }
-    }
-    xhttp.send();
 }
 
-// call getJsonData(callback) to use the api to retrieve the ER data from a database
-// otherwise load the local json sample data
-
 setTimeout(function(){
-    //getJsonData(load) // load data from database
-    getJsonData() // load data from local file
+    d3.json('data/matrix.json',function(data) {
+        getJsonData(data)
+    })
+     // load data from local file
 },100)

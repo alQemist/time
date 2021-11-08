@@ -7,7 +7,7 @@ function readInData(items) {
         ...items.map(row => header.map(fieldName => JSON.stringify(row[fieldName], replacer)).join(','))
     ].join('\r\n')
 
-    const data = new Blob([csv])
+    const data = new Blob([JSON])
     const a = document.getElementById('exportbutton');
     a.href = URL.createObjectURL(data)
     a.download = "sankey.json";
@@ -37,12 +37,7 @@ function readURL(input) {
 
                 reader.onload = function (e) {
                     let json = exti == 0 ? csvJSON(reader.result) : JSON.parse(reader.result)
-                    title_text = json.title
-                    style_option = json.style_option
-                    is_fixed = json.is_fixed
-                    data = json.data
-                    toggleStyle()
-                    load(data);
+                    getJsonData(json);
 
                 };
                 reader.readAsText(input.files[i]);

@@ -1,11 +1,11 @@
+var is_open = 0
 var x_y_axis = ["Business Value", "Technical Merits"];
 var target_svg
 var target_margin = {top: 150, right: 250, bottom: 80, left: 100}
 var width = window.innerWidth - target_margin.right - target_margin.left
 var height = window.innerHeight - target_margin.top - target_margin.bottom - 60
-
+var title_text, jsonData, origData, style_option
 var grid_unit_w = (width - (target_margin.left + target_margin.right)) / 11
-
 let trends = ["Increasing", "Unchanged", "Decreasing", "Parked"];
 var ticks = 15;
 var maxTick_y = 15;
@@ -33,7 +33,7 @@ function addMatrix(jdata) {
     q[2][0] = (window.innerWidth / 2) + (width * .05)
     q[2][1] = (window.innerHeight / 2) + (height * .1)
 
-    var data = jdata.sort((a, b) => {
+    var data = jdata.data.sort((a, b) => {
         return a.a_value - b.a_value;
     });
 
@@ -42,7 +42,7 @@ function addMatrix(jdata) {
     });
 
 
-    legend_array = [...new Set(jdata.map(d => d.domain))];
+    legend_array = [...new Set(jdata.data.map(d => d.domain))];
 
     var sortnum = function (a, b) {
         return a - b
@@ -99,7 +99,7 @@ function addMatrix(jdata) {
         .style("width", function () {
             return (window.innerHeight * .8) - 80 + "px"
         })
-        .html(title_text.toUpperCase())
+        .html(jdata.title_text.toUpperCase())
 
 
     var icondefs = b.append("svg")
