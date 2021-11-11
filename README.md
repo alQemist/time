@@ -1,4 +1,9 @@
 # APPLICATION PORTFOLIO - TIME MATRIX
+
+Copyright alQemy 2021
+
+GNU GENERAL PUBLIC LICENSE
+
 application portfolio matrix
 
 Solution is inspired by d3.js Scatter Plot examples like these: http://bl.ocks.org/weiglemc/6185069
