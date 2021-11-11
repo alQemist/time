@@ -43,6 +43,6 @@ domain: Name of the Domain
 
 description: details about the application
 
-a_value: 1-10 (business value)
+biz_value: 1-10 (business value)
 
-b_value: 1-10 (technical merit)
+it_value: 1-10 (technical merit)
