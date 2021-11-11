@@ -34,11 +34,11 @@ function addMatrix(jdata) {
     q[2][1] = (window.innerHeight / 2) + (height * .1)
 
     var data = jdata.data.sort((a, b) => {
-        return a.a_value - b.a_value;
+        return a.biz_value - b.biz_value;
     });
 
     var data = data.sort((a, b) => {
-        return a.b_value - b.b_value;
+        return a.it_value - b.it_value;
     });
 
 
@@ -53,8 +53,8 @@ function addMatrix(jdata) {
     var obj = {}
 
     data.forEach(function (d, i) {
-        let av = +d.a_value
-        let dv = +d.b_value || 0
+        let av = +d.biz_value
+        let dv = +d.it_value || 0
         if (typeof data_obj[av] != "object") {
             data_obj[av] = []
             new_obj[av] = []
@@ -70,12 +70,12 @@ function addMatrix(jdata) {
         if ((data_obj[av]).indexOf(dv) < 0) {
             data_obj[av].push(dv)
             new_obj[av].push(dv)
-            data[i]["b_value"] = dv
+            data[i]["it_value"] = dv
         } else {
             let mv = Math.max.apply(Math, new_obj[av])
             let nv = mv > dv ? dv : dv + (obj[av][dv] * .35)
             data_obj[av].push(nv)
-            data[i]["b_value"] = nv
+            data[i]["it_value"] = nv
         }
 
 
@@ -294,7 +294,7 @@ function addMatrix(jdata) {
     var xScale = d3.scale.linear()
         .domain([
             d3.min([0, d3.min(data, function (d) {
-                return d.a_value
+                return d.biz_value
             })]),
             d3.max([0, maxTick_x])
 
@@ -303,7 +303,7 @@ function addMatrix(jdata) {
     var yScale = d3.scale.linear()
         .domain([
             d3.min([0, d3.min(data, function (d) {
-                return d.b_value
+                return d.it_value
             })]),
 
             d3.max([0, maxTick_y])
@@ -391,10 +391,10 @@ function addMatrix(jdata) {
         })
         .style("height", row_height)
         .attr('x', function (d) {
-            return (xScale(d.a_value) + target_margin.left) - 10
+            return (xScale(d.biz_value) + target_margin.left) - 10
         })
         .attr('y', function (d) {
-            return yScale(d.b_value) - (row_height * .5)
+            return yScale(d.it_value) - (row_height * .5)
         })
         .attr('rx', function (d) {
             return 8
@@ -414,10 +414,10 @@ function addMatrix(jdata) {
         .append('circle')
         .classed("circle-plot", true)
         .attr('cx', function (d) {
-            return (xScale(d.a_value) + target_margin.left)
+            return (xScale(d.biz_value) + target_margin.left)
         })
         .attr('cy', function (d) {
-            return yScale(d.b_value)
+            return yScale(d.it_value)
         })
         .attr('r', function (d) {
             return row_height * .6
@@ -427,7 +427,7 @@ function addMatrix(jdata) {
         })
         .append('title') // Tooltip
         .text(function (d) {
-            return d.a_value
+            return d.biz_value
         })
 
     var indicators = target_svg.selectAll('trends')
@@ -436,10 +436,10 @@ function addMatrix(jdata) {
         .append('circle')
         .classed("indicator", true)
         .attr('cx', function (d) {
-            return (xScale(d.a_value) + target_margin.left)
+            return (xScale(d.biz_value) + target_margin.left)
         })
         .attr('cy', function (d) {
-            return yScale(d.b_value)
+            return yScale(d.it_value)
         })
         .attr('r', function (d) {
             return 10
@@ -450,42 +450,46 @@ function addMatrix(jdata) {
         })
         .attr('transform', function (d) {
             let ro = -180 - (+d.status + 1) * 90;
-            let x = xScale(d.a_value) + target_margin.left
-            let y = yScale(d.b_value)
+            let x = xScale(d.biz_value) + target_margin.left
+            let y = yScale(d.it_value)
             return 'rotate(' + ro + ',' + x + ',' + y + ')'
         })
         .on('mouseover', function (d) {
-            let t = ("<p><b>" + d.name + "</b><p>" + x_y_axis[0] + ":" + d.a_value + "<br>" + x_y_axis[1] + ":" + d.b_value + "<p>") + (d.description != null ? d.description : "")
+            let t = ("<p><b>" + d.name + "</b><p>" + x_y_axis[0] + ":" + d.biz_value + "<br>" + x_y_axis[1] + ":" + d.it_value + "<p>") + (d.description != null ? d.description : "")
             showTooltip(t)
         })
         .on('mouseout', function () {
             showTooltip("")
         })
 
+var all_labels = []
 
     target_svg.selectAll('label')
         .data(data)
         .enter()
         .append('text')
         .text(function (d) {
+            all_labels.push(d.name)
             return (d.name.length > 20) ? d.name.substr(0, 20) + '...' : d.name
         })
         .style("font-size", font_size)
         .classed("labels", true)
         .attr('x', function (d) {
-            return (xScale(d.a_value) + target_margin.left + font_size * 1.5)
+            return (xScale(d.biz_value) + target_margin.left + font_size * 1.5)
         })
         .attr('y', function (d) {
-            return yScale(d.b_value) + row_height * .2 //+ (row_height * i) + (i * 2)
+            return yScale(d.it_value) + row_height * .2 //+ (row_height * i) + (i * 2)
         })
 
         .on('mouseover', function (d) {
-            let t = ("<p><b>" + d.name + "</b><p>" + x_y_axis[0] + ":" + d.a_value + "<br>" + x_y_axis[1] + ":" + d.b_value + "<p>") + (d.description != null ? d.description : "")
+            let t = ("<p><b>" + d.name + "</b><p>" + x_y_axis[0] + ":" + d.biz_value + "<br>" + x_y_axis[1] + ":" + d.it_value + "<p>") + (d.description != null ? d.description : "")
             showTooltip(t)
         })
         .on('mouseout', function () {
             showTooltip("")
         })
+
+    console.log(all_labels.join("\r"))
 
     var ani_intv = 50;
 

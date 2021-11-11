@@ -10,8 +10,8 @@
     "arb_status": "3",
     "domain": "Human Resources",
     "description": "Used for recruiting purposes",
-    "a_value": "1",
-    "b_value": "8"
+    "biz_value": "1",
+    "it_value": "8"
   },
   {
     "id": "1001",
@@ -20,8 +20,8 @@
     "arb_status": "1",
     "domain": "Enterprise",
     "description": "Internal business application for the enterprise, code named Krypton, pending official name",
-    "a_value": "4",
-    "b_value": "5"
+    "biz_value": "4",
+    "it_value": "5"
   },
   {
     "id": "1002",
@@ -30,8 +30,8 @@
     "arb_status": "2",
     "domain": "Human Resources",
     "description": "Service for Managing Personnel and Payroll",
-    "a_value": "8",
-    "b_value": "10"
+    "biz_value": "8",
+    "it_value": "10"
   },
   {
     "id": "1003",
@@ -40,8 +40,8 @@
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Server Application running on Windows OS",
-    "a_value": "10",
-    "b_value": "4"
+    "biz_value": "10",
+    "it_value": "4"
   },
   {
     "id": "1004",
@@ -50,8 +50,8 @@
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Client Application running on Windows and MacOS",
-    "a_value": "10",
-    "b_value": "4"
+    "biz_value": "10",
+    "it_value": "4"
   },
   {
     "id": "1005",
@@ -60,8 +60,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "AWS Dashboard Reporting application (service)",
-    "a_value": "6",
-    "b_value": "9"
+    "biz_value": "6",
+    "it_value": "9"
   },
   {
     "id": "1006",
@@ -70,8 +70,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Enterprise Internal Website",
-    "a_value": "2",
-    "b_value": "2"
+    "biz_value": "2",
+    "it_value": "2"
   },
   {
     "id": "1007",
@@ -80,8 +80,8 @@
     "arb_status": "0",
     "domain": "Clinical Services",
     "description": "International Classification of Diseases (API) ",
-    "a_value": "5",
-    "b_value": "10"
+    "biz_value": "5",
+    "it_value": "10"
   },
   {
     "id": "1008",
@@ -90,8 +90,8 @@
     "arb_status": "2",
     "domain": "Finance",
     "description": "Invoicing API",
-    "a_value": "10",
-    "b_value": "9"
+    "biz_value": "10",
+    "it_value": "9"
   },
   {
     "id": "1009",
@@ -100,8 +100,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Technical support ticketing",
-    "a_value": "5",
-    "b_value": "3"
+    "biz_value": "5",
+    "it_value": "3"
   },
   {
     "id": "1010",
@@ -110,8 +110,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "PDF creation library",
-    "a_value": "8",
-    "b_value": "8"
+    "biz_value": "8",
+    "it_value": "8"
   },
   {
     "id": "1011",
@@ -120,8 +120,8 @@
     "arb_status": "2",
     "domain": "Human Resources",
     "description": "Manage Clinician Licenses",
-    "a_value": "7",
-    "b_value": "7"
+    "biz_value": "7",
+    "it_value": "7"
   },
   {
     "id": "1012",
@@ -130,8 +130,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Mass mailer",
-    "a_value": "8",
-    "b_value": "6"
+    "biz_value": "8",
+    "it_value": "6"
   },
   {
     "id": "1013",
@@ -140,8 +140,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Workflow Management",
-    "a_value": "8",
-    "b_value": "7"
+    "biz_value": "8",
+    "it_value": "7"
   },
   {
     "id": "1014",
@@ -150,8 +150,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Video Conferencing",
-    "a_value": "9",
-    "b_value": "8"
+    "biz_value": "9",
+    "it_value": "8"
   },
   {
     "id": "1015",
@@ -160,8 +160,8 @@
     "arb_status": "2",
     "domain": "Human Resources",
     "description": "Checks for sanctions against therapist licenses",
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   },
   {
     "id": "1016",
@@ -170,8 +170,8 @@
     "arb_status": "2",
     "domain": "External Domains",
     "description": "GEO location service for determining distances",
-    "a_value": "7",
-    "b_value": "9"
+    "biz_value": "7",
+    "it_value": "9"
   },
   {
     "id": "1017",
@@ -180,8 +180,8 @@
     "arb_status": "0",
     "domain": "Finance",
     "description": "Financial Management",
-    "a_value": "1",
-    "b_value": "8"
+    "biz_value": "1",
+    "it_value": "8"
   },
   {
     "id": "1018",
@@ -190,8 +190,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Signing of documents",
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1019",
@@ -200,8 +200,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Monitor FM server performance",
-    "a_value": "4",
-    "b_value": "8"
+    "biz_value": "4",
+    "it_value": "8"
   },
   {
     "id": "1020",
@@ -210,8 +210,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Email, Word, Excel",
-    "a_value": "8",
-    "b_value": "10"
+    "biz_value": "8",
+    "it_value": "10"
   },
   {
     "id": "1021",
@@ -220,8 +220,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Application for version control and deploying applications",
-    "a_value": "5",
-    "b_value": "9"
+    "biz_value": "5",
+    "it_value": "9"
   },
   {
     "id": "1022",
@@ -230,8 +230,8 @@
     "arb_status": "2",
     "domain": "Health Plan",
     "description": "Data integration tool for accepting new request",
-    "a_value": "10",
-    "b_value": "9"
+    "biz_value": "10",
+    "it_value": "9"
   },
   {
     "id": "1026",
@@ -240,8 +240,8 @@
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Master Business Application",
-    "a_value": "10",
-    "b_value": "3"
+    "biz_value": "10",
+    "it_value": "3"
   },
   {
     "id": "1027",
@@ -250,8 +250,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Relational Database Service",
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1028",
@@ -260,8 +260,8 @@
     "arb_status": "0",
     "domain": "Human Resources",
     "description": "Payroll personnel and training management service",
-    "a_value": "1",
-    "b_value": "8"
+    "biz_value": "1",
+    "it_value": "8"
   },
   {
     "id": "1029",
@@ -270,8 +270,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Internal Collaboration Tool",
-    "a_value": "9",
-    "b_value": "8"
+    "biz_value": "9",
+    "it_value": "8"
   },
   {
     "id": "1030",
@@ -280,8 +280,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "CI/CD Pipeline",
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1031",
@@ -290,8 +290,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "PHP framework for creating websites",
-    "a_value": "1",
-    "b_value": "8"
+    "biz_value": "1",
+    "it_value": "8"
   },
   {
     "id": "1032",
@@ -300,8 +300,8 @@
     "arb_status": "3",
     "domain": "Human Resources",
     "description": null,
-    "a_value": "1",
-    "b_value": "8"
+    "biz_value": "1",
+    "it_value": "8"
   },
   {
     "id": "1033",
@@ -310,8 +310,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "PHP Application Framework",
-    "a_value": "5",
-    "b_value": "10"
+    "biz_value": "5",
+    "it_value": "10"
   },
   {
     "id": "1036",
@@ -320,8 +320,8 @@
     "arb_status": "1",
     "domain": "Finance",
     "description": "Bank of America account management application",
-    "a_value": "8",
-    "b_value": "5"
+    "biz_value": "8",
+    "it_value": "5"
   },
   {
     "id": "1037",
@@ -330,8 +330,8 @@
     "arb_status": "1",
     "domain": "Finance",
     "description": null,
-    "a_value": "8",
-    "b_value": "5"
+    "biz_value": "8",
+    "it_value": "5"
   },
   {
     "id": "1038",
@@ -340,8 +340,8 @@
     "arb_status": "1",
     "domain": "Engineering",
     "description": "Modeling and Documentation tool used for Enterprise Architecture and Data Governance. It is the Single Source of Truth for all Enterprise Metadata.",
-    "a_value": "6",
-    "b_value": "10"
+    "biz_value": "6",
+    "it_value": "10"
   },
   {
     "id": "1039",
@@ -350,8 +350,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "IDE use to develop applications or tools and perform DB admin",
-    "a_value": "5",
-    "b_value": "10"
+    "biz_value": "5",
+    "it_value": "10"
   },
   {
     "id": "1040",
@@ -360,8 +360,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "IDE use to develop applications or tools and perform DB admin",
-    "a_value": "5",
-    "b_value": "10"
+    "biz_value": "5",
+    "it_value": "10"
   },
   {
     "id": "1041",
@@ -370,8 +370,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Remote Desktop application for access remove servers in order to perform administrative or development tasks.",
-    "a_value": "5",
-    "b_value": "10"
+    "biz_value": "5",
+    "it_value": "10"
   },
   {
     "id": "1042",
@@ -380,8 +380,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Large portfolio os services for IT",
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   },
   {
     "id": "1043",
@@ -390,8 +390,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Document storage as objects for optimization (without content indexing)",
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   },
   {
     "id": "1044",
@@ -400,8 +400,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": null,
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   },
   {
     "id": "1045",
@@ -410,8 +410,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Data Transformations",
-    "a_value": "7",
-    "b_value": "7"
+    "biz_value": "7",
+    "it_value": "7"
   },
   {
     "id": "1046",
@@ -420,8 +420,8 @@
     "arb_status": "1",
     "domain": "Engineering",
     "description": "Third party tool for creating and managing custom forms for data collection",
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   },
   {
     "id": "1047",
@@ -430,8 +430,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Used for work management",
-    "a_value": "5",
-    "b_value": "10"
+    "biz_value": "5",
+    "it_value": "10"
   },
   {
     "id": "1048",
@@ -440,8 +440,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "PDF creation and editing tool",
-    "a_value": "8",
-    "b_value": "10"
+    "biz_value": "8",
+    "it_value": "10"
   },
   {
     "id": "1049",
@@ -450,8 +450,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Internet Browser",
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1050",
@@ -460,8 +460,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "PDF Reader (view only)",
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1051",
@@ -470,8 +470,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Used to run Legacy client to connect to the server much faster",
-    "a_value": "8",
-    "b_value": "8"
+    "biz_value": "8",
+    "it_value": "8"
   },
   {
     "id": "1052",
@@ -480,8 +480,8 @@
     "arb_status": "1",
     "domain": "Clinical Services",
     "description": "Library for creating HTML Forms",
-    "a_value": "9",
-    "b_value": "5"
+    "biz_value": "9",
+    "it_value": "5"
   },
   {
     "id": "1053",
@@ -490,8 +490,8 @@
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Server Application running on Windows OS",
-    "a_value": "10",
-    "b_value": "4"
+    "biz_value": "10",
+    "it_value": "4"
   },
   {
     "id": "1054",
@@ -500,8 +500,8 @@
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Client Application running on Windows and MacOS",
-    "a_value": "10",
-    "b_value": "4"
+    "biz_value": "10",
+    "it_value": "4"
   },
   {
     "id": "1055",
@@ -510,8 +510,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Production Server for Legacy",
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1056",
@@ -520,8 +520,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Production Server for Legacy",
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   },
   {
     "id": "1057",
@@ -530,8 +530,8 @@
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Word Press plugin for editing pages",
-    "a_value": "6",
-    "b_value": "6"
+    "biz_value": "6",
+    "it_value": "6"
   },
   {
     "id": "1058",
@@ -540,8 +540,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Server tool for monitoring and reporting on server performance",
-    "a_value": "8",
-    "b_value": "8"
+    "biz_value": "8",
+    "it_value": "8"
   },
   {
     "id": "1059",
@@ -550,8 +550,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Javascript framework for creating SVG charts and graphs",
-    "a_value": "5",
-    "b_value": "9"
+    "biz_value": "5",
+    "it_value": "9"
   },
   {
     "id": "1060",
@@ -560,8 +560,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": null,
-    "a_value": "8",
-    "b_value": "8"
+    "biz_value": "8",
+    "it_value": "8"
   },
   {
     "id": "1062",
@@ -570,8 +570,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
-    "a_value": "9",
-    "b_value": "4"
+    "biz_value": "9",
+    "it_value": "4"
   },
   {
     "id": "1063",
@@ -580,8 +580,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Web publishing of Legacy database layouts",
-    "a_value": "2",
-    "b_value": "2"
+    "biz_value": "2",
+    "it_value": "2"
   },
   {
     "id": "1064",
@@ -590,8 +590,8 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "PHP API Framework for Legacy Server",
-    "a_value": "8",
-    "b_value": "8"
+    "biz_value": "8",
+    "it_value": "8"
   },
   {
     "id": "1065",
@@ -600,8 +600,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1066",
@@ -610,8 +610,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1067",
@@ -620,8 +620,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1068",
@@ -630,8 +630,8 @@
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
-    "a_value": "10",
-    "b_value": "10"
+    "biz_value": "10",
+    "it_value": "10"
   },
   {
     "id": "1069",
@@ -640,8 +640,8 @@
     "arb_status": "1",
     "domain": "Analytics",
     "description": "AWS service for AI and ML processing",
-    "a_value": "6",
-    "b_value": "10"
+    "biz_value": "6",
+    "it_value": "10"
   },
   {
     "id": "1072",
@@ -650,7 +650,7 @@
     "arb_status": "2",
     "domain": "Engineering",
     "description": "WinSCP is an open source free SFTP client, FTP client, WebDAV client, S3 client and SCP client for Windows. Its main function is file transfer between a local and a remote computer. ",
-    "a_value": "9",
-    "b_value": "9"
+    "biz_value": "9",
+    "it_value": "9"
   }
 ]}
