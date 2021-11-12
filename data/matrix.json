@@ -6,7 +6,7 @@
   {
     "id": "1000",
     "name": "Sales Force",
-    "status": "-1",
+    "planning": "-1",
     "arb_status": "3",
     "domain": "Human Resources",
     "description": "Used for recruiting purposes",
@@ -16,7 +16,7 @@
   {
     "id": "1001",
     "name": "Krypton",
-    "status": "1",
+    "planning": "1",
     "arb_status": "1",
     "domain": "Enterprise",
     "description": "Internal business application for the enterprise, code named Krypton, pending official name",
@@ -26,7 +26,7 @@
   {
     "id": "1002",
     "name": "PayChex",
-    "status": "-1",
+    "planning": "-1",
     "arb_status": "2",
     "domain": "Human Resources",
     "description": "Service for Managing Personnel and Payroll",
@@ -36,7 +36,7 @@
   {
     "id": "1003",
     "name": "Legacy Server 18",
-    "status": "-1",
+    "planning": "-1",
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Server Application running on Windows OS",
@@ -46,7 +46,7 @@
   {
     "id": "1004",
     "name": "Legacy Client 18",
-    "status": "-1",
+    "planning": "-1",
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Client Application running on Windows and MacOS",
@@ -56,7 +56,7 @@
   {
     "id": "1005",
     "name": "AWS QuickSight",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "AWS Dashboard Reporting application (service)",
@@ -66,7 +66,7 @@
   {
     "id": "1006",
     "name": "Sharepoint",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Enterprise Internal Website",
@@ -76,7 +76,7 @@
   {
     "id": "1007",
     "name": "ICD-10",
-    "status": "1",
+    "planning": "1",
     "arb_status": "0",
     "domain": "Clinical Services",
     "description": "International Classification of Diseases (API) ",
@@ -86,7 +86,7 @@
   {
     "id": "1008",
     "name": "Coupa API",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Finance",
     "description": "Invoicing API",
@@ -96,7 +96,7 @@
   {
     "id": "1009",
     "name": "Freshdesk",
-    "status": "-1",
+    "planning": "-1",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Technical support ticketing",
@@ -106,7 +106,7 @@
   {
     "id": "1010",
     "name": "PDFlib",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "PDF creation library",
@@ -116,7 +116,7 @@
   {
     "id": "1011",
     "name": "License Manager Pro",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Human Resources",
     "description": "Manage Clinician Licenses",
@@ -126,7 +126,7 @@
   {
     "id": "1012",
     "name": "MailerLite",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Mass mailer",
@@ -136,7 +136,7 @@
   {
     "id": "1013",
     "name": "Aha",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Workflow Management",
@@ -146,7 +146,7 @@
   {
     "id": "1014",
     "name": "Zoom",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Video Conferencing",
@@ -156,7 +156,7 @@
   {
     "id": "1015",
     "name": "Sanction Check (Precheck)",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Human Resources",
     "description": "Checks for sanctions against therapist licenses",
@@ -166,7 +166,7 @@
   {
     "id": "1016",
     "name": "Google Map API",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "External Domains",
     "description": "GEO location service for determining distances",
@@ -176,7 +176,7 @@
   {
     "id": "1017",
     "name": "Quickbooks",
-    "status": "1",
+    "planning": "1",
     "arb_status": "0",
     "domain": "Finance",
     "description": "Financial Management",
@@ -186,7 +186,7 @@
   {
     "id": "1018",
     "name": "Docusign",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Signing of documents",
@@ -196,7 +196,7 @@
   {
     "id": "1019",
     "name": "Nutshell",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Monitor FM server performance",
@@ -206,7 +206,7 @@
   {
     "id": "1020",
     "name": "Office 365",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Email, Word, Excel",
@@ -216,7 +216,7 @@
   {
     "id": "1021",
     "name": "GitHUB",
-    "status": "-1",
+    "planning": "-1",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Application for version control and deploying applications",
@@ -226,7 +226,7 @@
   {
     "id": "1022",
     "name": "Request API",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Health Plan",
     "description": "Data integration tool for accepting new request",
@@ -236,7 +236,7 @@
   {
     "id": "1026",
     "name": "Legacy System",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Master Business Application",
@@ -246,7 +246,7 @@
   {
     "id": "1027",
     "name": "AWS RDS",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Relational Database Service",
@@ -256,7 +256,7 @@
   {
     "id": "1028",
     "name": "ADP",
-    "status": "1",
+    "planning": "1",
     "arb_status": "0",
     "domain": "Human Resources",
     "description": "Payroll personnel and training management service",
@@ -266,7 +266,7 @@
   {
     "id": "1029",
     "name": "Teams",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Internal Collaboration Tool",
@@ -276,7 +276,7 @@
   {
     "id": "1030",
     "name": "GitLAB",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "CI/CD Pipeline",
@@ -286,7 +286,7 @@
   {
     "id": "1031",
     "name": "WordPress",
-    "status": "1",
+    "planning": "1",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "PHP framework for creating websites",
@@ -296,7 +296,7 @@
   {
     "id": "1032",
     "name": "Moodle",
-    "status": "-2",
+    "planning": "-2",
     "arb_status": "3",
     "domain": "Human Resources",
     "description": null,
@@ -306,7 +306,7 @@
   {
     "id": "1033",
     "name": "Laravel",
-    "status": "1",
+    "planning": "1",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "PHP Application Framework",
@@ -316,7 +316,7 @@
   {
     "id": "1036",
     "name": "Bank Of America",
-    "status": "0",
+    "planning": "0",
     "arb_status": "1",
     "domain": "Finance",
     "description": "Bank of America account management application",
@@ -326,7 +326,7 @@
   {
     "id": "1037",
     "name": "AMEX",
-    "status": "0",
+    "planning": "0",
     "arb_status": "1",
     "domain": "Finance",
     "description": null,
@@ -336,7 +336,7 @@
   {
     "id": "1038",
     "name": "EAG",
-    "status": "0",
+    "planning": "0",
     "arb_status": "1",
     "domain": "Engineering",
     "description": "Modeling and Documentation tool used for Enterprise Architecture and Data Governance. It is the Single Source of Truth for all Enterprise Metadata.",
@@ -346,7 +346,7 @@
   {
     "id": "1039",
     "name": "PHPStorm",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "IDE use to develop applications or tools and perform DB admin",
@@ -356,7 +356,7 @@
   {
     "id": "1040",
     "name": "Visual Code",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "IDE use to develop applications or tools and perform DB admin",
@@ -366,7 +366,7 @@
   {
     "id": "1041",
     "name": "RDP",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Remote Desktop application for access remove servers in order to perform administrative or development tasks.",
@@ -376,7 +376,7 @@
   {
     "id": "1042",
     "name": "AWS Cloud Services",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Large portfolio os services for IT",
@@ -386,7 +386,7 @@
   {
     "id": "1043",
     "name": "AWS Simple Storage Services (S3)",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Document storage as objects for optimization (without content indexing)",
@@ -396,7 +396,7 @@
   {
     "id": "1044",
     "name": "Windows Server 2016 Datacenter- Test",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": null,
@@ -406,7 +406,7 @@
   {
     "id": "1045",
     "name": "Python",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Data Transformations",
@@ -416,7 +416,7 @@
   {
     "id": "1046",
     "name": "Cognito Forms",
-    "status": "1",
+    "planning": "1",
     "arb_status": "1",
     "domain": "Engineering",
     "description": "Third party tool for creating and managing custom forms for data collection",
@@ -426,7 +426,7 @@
   {
     "id": "1047",
     "name": "JIRA",
-    "status": "1",
+    "planning": "1",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Used for work management",
@@ -436,7 +436,7 @@
   {
     "id": "1048",
     "name": "Acrobat Professional",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "PDF creation and editing tool",
@@ -446,7 +446,7 @@
   {
     "id": "1049",
     "name": "Google Chrome",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Internet Browser",
@@ -456,7 +456,7 @@
   {
     "id": "1050",
     "name": "Adobe Reader",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "PDF Reader (view only)",
@@ -466,7 +466,7 @@
   {
     "id": "1051",
     "name": "AWS Workspace",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Used to run Legacy client to connect to the server much faster",
@@ -476,7 +476,7 @@
   {
     "id": "1052",
     "name": "Form Builder",
-    "status": "1",
+    "planning": "1",
     "arb_status": "1",
     "domain": "Clinical Services",
     "description": "Library for creating HTML Forms",
@@ -486,7 +486,7 @@
   {
     "id": "1053",
     "name": "Legacy Server 19",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Server Application running on Windows OS",
@@ -496,7 +496,7 @@
   {
     "id": "1054",
     "name": "Legacy Client 19",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Client Application running on Windows and MacOS",
@@ -506,7 +506,7 @@
   {
     "id": "1055",
     "name": "Windows Server 2016 Datacenter - Prod",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Production Server for Legacy",
@@ -516,7 +516,7 @@
   {
     "id": "1056",
     "name": "Windows Server 2016 Datacenter - Stage",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": "Production Server for Legacy",
@@ -526,7 +526,7 @@
   {
     "id": "1057",
     "name": "Elementor",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Business Operations",
     "description": "Word Press plugin for editing pages",
@@ -536,7 +536,7 @@
   {
     "id": "1058",
     "name": "Zabix",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Server tool for monitoring and reporting on server performance",
@@ -546,7 +546,7 @@
   {
     "id": "1059",
     "name": "d3js",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Javascript framework for creating SVG charts and graphs",
@@ -556,7 +556,7 @@
   {
     "id": "1060",
     "name": "AWS Athena",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": null,
@@ -566,7 +566,7 @@
   {
     "id": "1062",
     "name": "CodeIgniter",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
@@ -576,7 +576,7 @@
   {
     "id": "1063",
     "name": "Legacy Webdirect",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "Web publishing of Legacy database layouts",
@@ -586,7 +586,7 @@
   {
     "id": "1064",
     "name": "FXphp",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "PHP API Framework for Legacy Server",
@@ -596,7 +596,7 @@
   {
     "id": "1065",
     "name": "Excel",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
@@ -606,7 +606,7 @@
   {
     "id": "1066",
     "name": "Word",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
@@ -616,7 +616,7 @@
   {
     "id": "1067",
     "name": "Outlook",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
@@ -626,7 +626,7 @@
   {
     "id": "1068",
     "name": "PowerPoint",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Enterprise",
     "description": null,
@@ -636,7 +636,7 @@
   {
     "id": "1069",
     "name": "AWS Sagemaker",
-    "status": "1",
+    "planning": "1",
     "arb_status": "1",
     "domain": "Analytics",
     "description": "AWS service for AI and ML processing",
@@ -646,7 +646,7 @@
   {
     "id": "1072",
     "name": "WinSCP",
-    "status": "0",
+    "planning": "0",
     "arb_status": "2",
     "domain": "Engineering",
     "description": "WinSCP is an open source free SFTP client, FTP client, WebDAV client, S3 client and SCP client for Windows. Its main function is file transfer between a local and a remote computer. ",

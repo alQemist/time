@@ -27,7 +27,11 @@
 
 </div>
 
-
+<img class="giticon"
+     src="css/icons/github.svg"
+     alt="Download src code"
+     />
+<div class="gitbutton">Get the Source Code</div>
 </body>
 <!-- load the d3.js library -->
 
@@ -60,6 +64,12 @@
             .classed("darkish", function () {
                 return style_option;
             })
+
+        d3.select(".exportbutton")
+            .classed("darkish", function () {
+                return style_option;
+            })
+
 
     }
 
@@ -119,10 +129,10 @@
         let to = 8000
 
         if (d) {
-            if(d3.event) {
+            if (d3.event) {
                 d3.event.preventDefault();
-                x = d3.event.pageX
-                y = d3.event.pageY
+                x = Math.min.apply(Math, [d3.event.pageX, width * .95])
+                y = Math.max.apply(Math, [d3.event.pageY, height * .12])
                 to = 6000
             }
 
@@ -130,9 +140,9 @@
 
             //let ttb = tooltip.append("button")
             //    .classed("close", true)
-             //   .attr("aria-label", "Close")
-                //.append("span")
-                //.attr("aria-hidden", true).html("&times;")
+            //   .attr("aria-label", "Close")
+            //.append("span")
+            //.attr("aria-hidden", true).html("&times;")
 
             //ttb.on("click", function () {
             //    showTooltip()
@@ -158,6 +168,18 @@
         }
 
     }
+
+    d3.selectAll(".selFile,.exportbutton")
+        .on("mouseenter", function () {
+            let txt = "<ol><li>EXPORT(download) 'TIME_matrix.json' data.</li><li>Open and edit the JSON data</li><li>IMPORT your new JSON file.</li></ol>"
+            showTooltip(txt)
+        }).on("mouseleave", function () {
+        showTooltip()
+    })
+    d3.select(".gitbutton")
+    .on("click",function(){
+        window.open("https://github.com/alQemist/time","_blank")
+    })
 
 </script>
 

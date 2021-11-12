@@ -449,7 +449,7 @@ function addMatrix(jdata) {
             return u;
         })
         .attr('transform', function (d) {
-            let ro = -180 - (+d.status + 1) * 90;
+            let ro = -180 - (+d.planning + 1) * 90;
             let x = xScale(d.biz_value) + target_margin.left
             let y = yScale(d.it_value)
             return 'rotate(' + ro + ',' + x + ',' + y + ')'

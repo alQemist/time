@@ -1,10 +1,24 @@
 body {
     background: rgb(55, 55, 55);
+    background-image: url("icons/protruding-squares.svg");
+    background-size: 3%;
+    background-repeat: repeat;
     margin: 0px;
     border: none;
     font-family: Helvetica, "Nova Flat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgba(220, 220, 220, .8);
 }
+a{
+    color: rgba(220, 220, 220, .8);
+}
+.giticon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom:30px;
+    left:30px;
+}
+
 .svgContainer{
     position: absolute;
     top:0px;
@@ -18,7 +32,7 @@ body {
     height:40px;
     border:none;
     background: transparent;
-    color: rgba(220, 220, 220, .8);
+    color:inherit !important;
     text-transform: uppercase;
     top:5px;
     max-width:80px;
@@ -81,7 +95,7 @@ text {
 
 .darkish {
     background: rgb(255, 255, 255);
-    color: rgba(55, 55, 55, .6);
+    color: rgba(55, 55, 55, .6) !important;
 }
 
 .darkish text {
@@ -210,4 +224,16 @@ text {
 .axis, .horizontalGrid {
     fill: rgba(150, 150, 150, .9);
     stroke: rgba(150, 150, 150, .9);
+}
+.gitbutton{
+    position: absolute;
+    bottom:40px !important;
+    left:70px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bgsvg{
+    width:100%;
+    height:100%;
+    opacity: .3;
 }
