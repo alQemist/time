@@ -1,8 +1,5 @@
 body {
-    background: rgb(55, 55, 55);
-    background-image: url("icons/protruding-squares.svg");
-    background-size: 3%;
-    background-repeat: repeat;
+    background: rgb(35, 35, 35);
     margin: 0px;
     border: none;
     font-family: Helvetica, "Nova Flat", "Helvetica Neue", Helvetica, Arial, sans-serif;
